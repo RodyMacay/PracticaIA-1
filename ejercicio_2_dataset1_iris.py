@@ -1,18 +1,13 @@
-# ejercicio_2_dataset1_iris.py
-# -*- coding: utf-8 -*-
+
 """
 Ejercicio 2 (DESDE DATASET1 — Iris)
 Cargar y analizar el dataset 'dataset1.csv' (formato Iris) desde tu máquina local.
 Se generan histogramas y un scatter, además de etiquetar filas por tamaño usando PetalLengthCm.
 
 Requisitos (instalar una vez):
-    pip install pandas matplotlib
-
-Antes de ejecutar:
-    - Coloca el archivo 'dataset1.csv' en la MISMA carpeta de este script.
-    - Asegúrate que las columnas se llamen al menos:
-        ['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm', 'Species']
-    - Si tu CSV tiene un índice en la primera columna, ajusta index_col según corresponda.
+    en el requirements.txt estan las librerias necesarias
+    pip install -r requirements.txt
+    ojoo se instalan globalmente, no en un entorno virtual
 
 Ejecución:
     python ejercicio_2_dataset1_iris.py

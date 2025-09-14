@@ -7,7 +7,10 @@ Contiene tres secciones:
   3) Población por país e iteración con iterrows
 
 Requisitos (instalar una vez):
-    pip install pandas matplotlib
+    en el requirements.txt estan las librerias necesarias
+    pip install -r requirements.txt
+    ojoo se instalan globalmente, no en un entorno virtual
+    
 Ejecución:
     python ejercicio_1_pre_dataset.py
 """
